@@ -7,11 +7,12 @@ Pod::Spec.new do |s|
   s.authors = { 'Malcolm Barclay' => 'malcolm@mbarclay.net' }
   s.source = { :git => 'https://github.com/mbarclay/Geohash.git', :tag => s.version }
 
-  s.osx.deployment_target = '10.9'
+  s.osx.deployment_target = '10.14'
   s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
   s.module_name = 'Geohash'
   s.source_files = 'Geohash/Classes/*.swift'
+  s.swift_version = '4.2'
 end
