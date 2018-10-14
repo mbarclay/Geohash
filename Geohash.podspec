@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Geohash'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.license = 'MIT'
   s.summary = 'A basic geohash library written in Swift.'
   s.homepage = 'https://github.com/mbarclay/Geohash'
