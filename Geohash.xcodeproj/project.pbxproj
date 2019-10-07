@@ -168,11 +168,11 @@
 				TargetAttributes = {
 					52D3E2EB207E3D06007BA8EA = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1100;
 					};
 					52D3E2F4207E3D06007BA8EA = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -182,6 +182,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 52D3E2E2207E3D06007BA8EA;
 			productRefGroup = 52D3E2ED207E3D06007BA8EA /* Products */;
@@ -384,7 +385,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -410,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.mbarclay.Geohash;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -429,7 +430,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.mbarclay.GeohashTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -448,7 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.mbarclay.GeohashTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
