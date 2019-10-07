@@ -28,7 +28,7 @@ public struct Geohash {
     public static func decode(_ hash: String) throws -> (latitude: Double, longitude: Double) {
         // ensure the hash uses valid characters
         for character in hash {
-            if decimalToBase32Map.index(of: character) == nil {
+            if decimalToBase32Map.firstIndex(of: character) == nil {
                 throw GeohashError.runtimeError("Invalid character in geohash code")
             }
         }
@@ -115,7 +115,7 @@ private extension Geohash {
         var lon = (-180.0, 180.0)
         
         for character in hash {
-            let bitmap = decimalToBase32Map.index(of: character)!
+            let bitmap = decimalToBase32Map.firstIndex(of: character)!
             var mask = Int(base32BitflowInit)
             while mask != 0 {
                 switch parity {
