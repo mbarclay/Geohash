@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'A basic geohash library written in Swift.'
   s.homepage = 'https://github.com/mbarclay/Geohash'
   s.authors = { 'Malcolm Barclay' => 'malcolm@mbarclay.net' }
-  s.source = { :git => 'ssh://github.com/mbarclay/Geohash.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/mbarclay/Geohash.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '9.0'
